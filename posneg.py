@@ -1,4 +1,4 @@
-f=int(input())
+=int(input())
 if f>0:
 	print("Positive")
 elif f<0:
