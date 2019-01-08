@@ -1,7 +1,7 @@
 x=input()
-if x=='a' and x=='e' and x=='i' and x=='o' and x=='u' and x=='A' and x=='E' and x=='I' and x=='O' and x=='U':
+if x=='a' or x=='e' or x=='i' or x=='o' or x=='u' or x=='A' or x=='E' or x=='I' or x=='O' or x=='U':
 	print("Vowel")
-elif x!='a' and x!='e' and x!='i' and x!='o' and x!='u' and x!='A' and x!='E' and x!='I' and x!='O' and x!='U':
+elif x!='a' or x!='e' or x!='i' or x!='o' or x!='u' or x!='A' or x!='E' or x!='I' or x!='O' or x!='U':
 	print("Consonant")
 else:
 	print("invalid")
