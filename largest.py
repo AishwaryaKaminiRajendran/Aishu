@@ -1,7 +1,7 @@
 i=int(input())
 j=int(input())
 k=int(input())
-if i>=k and j>=k:
+if i>=j and i>=k:
 	print(i)
 elif j>=k:
 	print(j)
