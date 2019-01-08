@@ -1,4 +1,3 @@
-N=int(float(input()))
-K=int(float(input()))
+N,K=map(int,input().split())
 a=N**K
 print(a)
