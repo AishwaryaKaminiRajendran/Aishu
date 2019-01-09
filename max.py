@@ -1,7 +1,3 @@
 N=int(input())
-a=[]
-for i in range(0,N):
-	x=map(int,input().split())
-	a.append(x)
-print(a)
+a=[int(i) for i in input().split()]
 print(max(a))
