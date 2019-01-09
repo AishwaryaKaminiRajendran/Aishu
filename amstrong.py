@@ -1,11 +1,11 @@
-N=int(input())
+n=int(input())
 s=0
-t=N
-while N>=0:
-	d=N%10
+t=n
+while t>0:
+	d=t%10
 	s=s+d*d*d
-	N=N//10
-if s==t:
+	t=t//10
+if s==n:
 	print("yes")
 else:
 	print("no")
