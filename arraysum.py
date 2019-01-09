@@ -1,11 +1,9 @@
-N=int(input())
-K=int(input())
-s=0
-a=[]
-for i in range(0,N):
-	x=int(input())
-	a.append(x)
-print(a)
-for j in range(0,k):
-	s=s+a[j]
-print(s)
+N,K=map(int,input().split())
+x=[int(i) for i in input().split()]
+if N>=K:
+	s=[]
+	for i in range (0,K):
+		s.append(x[i])
+	print(sum(s))
+ 
+
