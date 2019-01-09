@@ -1,10 +1,12 @@
 a,b=map(int,input().split())
-j=a
-for i in range (1,a):
-	while j<=b:
-		if j%i==0:
-			print(j)
-		j=j+1
-
+x=' '
+for num in range(a+b,b):
+	if num>1:
+		for i in range(2,num):
+			if num%i==0:
+				break
+			else:
+				x=x+str(num)+' '
+print(x.strip())
 		
 		
