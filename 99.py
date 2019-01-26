@@ -1,3 +1,3 @@
-a,b,c=map(int,input().split())
-d=(a*b)%c
+g,h,j=map(int,input().split())
+d=(g*h)%j
 print(d)
