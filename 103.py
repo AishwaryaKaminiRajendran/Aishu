@@ -1,3 +1,3 @@
-a=input()
-b=a.title()
+c=input()
+b=c.title()
 print(b)
